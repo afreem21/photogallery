@@ -1,0 +1,230 @@
+html {
+    background-color: #000000;
+}
+body {
+    width: 1310px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 40px;
+    color: #007D7B;
+    text-transform: uppercase;
+    float: left;
+    padding: 0px 20px;
+}
+nav h2 {
+    visibility: hidden;
+    height: 0px;
+}
+nav li {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    left: 280px;
+}
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 60px;
+}
+nav a:hover {
+    color: #007D7B;
+}
+[href="#top"] {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: #ffffff;
+    background-color: #007D7B;  
+    margin: 0;
+    padding: 0 5px;
+}
+span {
+    display: block;
+    text-align: center;
+}
+[href="#top"]:hover {
+    color: #007D7B;
+    background-color: #ffffff;
+}
+main {
+    clear: left;
+}
+#about {
+    text-align: right;
+    padding: 10px;
+}
+#about img {
+   float: left;
+   width: 850px;
+   margin-right: 20px;
+}
+img + h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#about p {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#about p:last-of-type {
+    margin-bottom: 10px;
+}
+#gallery h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+#gallery p {
+    font-size: 20px;
+    color: #000000;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+figure {
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+figure img {
+    width: 420px;
+    height: 281px;
+}
+[alt~="Iran"], [alt~="Ireland"], [alt~="Italy"] {
+    height: 630px;
+}
+figcaption {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+[alt~="Chile"] + figcaption {
+    position: relative;
+    bottom: 280px;
+    left: 2px;
+    color: #000000;
+}
+[alt~="Guatemala"] + figcaption {
+    position: relative;
+    bottom: 280px;
+    left: 2px;
+}
+[alt~="USA"] + figcaption {
+    position: relative;
+    bottom: 280px;
+    left: 2px;
+}
+[alt~="Wyoming"] + figcaption {
+    position: relative;
+    bottom: 280px;
+    left: 2px;
+}
+[alt~="Hawaii"] + figcaption {
+    position: relative;
+    bottom: 30px;
+    left: 280px;
+}
+[alt~="Iran"] + figcaption {
+    position: relative;
+    bottom: 630px;
+    left: 2px;
+    color: #000000;
+}
+[alt~="Ireland"] + figcaption {
+    position: relative;
+    bottom: 30px;
+    left: 280px;
+} 
+[alt~="Italy"] + figcaption {
+    position: relative;
+    bottom: 30px;
+    left: 2px;
+}
+[alt~="Moab"] + figcaption {
+    position: relative;
+    bottom: 30px;
+    left: 250px;
+} 
+[alt~="Rocky"] + figcaption {
+    position: relative;
+    bottom: 280px;
+    left: 2px;
+    color: #000000;
+}
+[alt~="Switzerland"] + figcaption {
+    position: relative;
+    bottom: 30px;
+    left: 2px;
+    color: #000000;
+}
+[alt~="UK"] + figcaption {
+    position: relative;
+    bottom: 30px;
+    left: 320px;
+}
+#about, #gallery {
+    background-color: #ffffff;
+}
+#contact h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+#contact p {
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+form {
+    width: 850px;
+    margin: 0 auto;
+    padding: 10px;
+}
+label {
+    font-size: 16px;
+    color: #ffffff;
+}
+input[type="text"], input[type="email"] {
+    width: 850px;
+    height: 30px;
+    margin: 8px 0;
+    display: block;
+}
+input::placeholder {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #007D7B;
+}
+input[type="submit"] {
+    width: 300px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007D7B;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
